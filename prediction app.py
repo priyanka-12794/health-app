@@ -15,10 +15,10 @@ from streamlit_option_menu import option_menu
 
 
 #loading the saved models
-diabetes_model = pickle.load(open('C:/internshipss/diabetes_model (2).sav','rb'))
-heart_disease_model = pickle.load(open('C:/internshipss/heart_model (2).sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model (2).sav','rb'))
+heart_disease_model = pickle.load(open('heart_model (2).sav','rb'))
 
-parkinsons_model = joblib.load('C:/internshipss/parkinsons_model.sav')
+parkinsons_model = joblib.load('parkinsons_model.sav')
 
 
 #sidebar for navigation
